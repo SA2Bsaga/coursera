@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mod 2 Solution</title>
+	<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="row">
+  <div class="col-lg-12 col-md-12" id="menu">
+  	<h1>Our Menu</h1>
+  </div>
+  <div class="col-lg-4 col-md-6">
+    <div class="section">
+      <p class="foodname">Chicken</p>
+      <p>This food has been a staple source of protein even for the average college student on a super tight budget. It comes in a variety of forms from wings to tenders and to drumsticks!
+    </p>
+    </div>
+  </div>
+  <div class="col-lg-4 col-md-6">
+    <div class="section">
+      <p class="foodname">Beef</p>
+      <p>Beef is your number one choice if you're after a lean, mean chunky appearance! Perfect choice for large social events! Expect to find food like this at your nearest potluck!</p>
+    </div>
+  </div>
+  <div class="col-lg-4 col-md-12">
+    <div class="section">
+      <p class="foodname">Sushi</p>
+      <p>If you are asking for a variety, sushi takes the spot! With a fine-tune selection of delicacies to pick from, you will not be right or wrong with your choice of fish! Despite its high price, the traditional presentation of sushi will make it up for you!</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
