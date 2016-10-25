@@ -1,1 +1,57 @@
+* {
+	box-sizing: border-box;
+}
 
+.row {
+	width: 100%;
+}
+
+@media (min-width: 992px) {
+	.col-lg-4, .col-lg-12 {
+		background-color: green;
+		float: left;
+	}
+
+	.col-lg-4 {
+		width: 33.33%;
+	}
+
+	.col-lg-12 {
+		width: 100%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-6, .col-md-12 {
+		background-color: green;
+		float: left;
+	}
+
+	.col-md-6 {
+		width: 50%;
+	}
+
+	.col-md-12 {
+		width: 100%;
+	}
+}
+
+#menu {
+	background-color: blue;
+	text-align: center;
+}
+
+.section {
+	position: relative;
+}
+
+p {
+	background-color: green;
+}
+
+.foodname {
+	position: absolute;
+	float: right;
+	color: white;
+	background-color: red;
+}
